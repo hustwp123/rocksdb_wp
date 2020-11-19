@@ -1221,6 +1221,7 @@ Status BlockBasedTable::Open(
   if (!s.ok()) {
     return s;
   }
+  
   s = new_table->PrefetchIndexAndFilterBlocks(
       prefetch_buffer.get(), metaindex_iter.get(), new_table.get(),
       prefetch_all, table_options, level, &lookup_context);

@@ -2762,7 +2762,6 @@ Status DBImpl::BackgroundCompaction(bool* made_progress,
         &compaction_job_stats, thread_pri,
         is_manual ? &manual_compaction_paused_ : nullptr);
 
-    printf("before Prepare\n");
     compaction_job.Prepare();
 
     NotifyOnCompactionBegin(c->column_family_data(), c.get(), status,
@@ -2775,7 +2774,6 @@ Status DBImpl::BackgroundCompaction(bool* made_progress,
     TEST_SYNC_POINT("DBImpl::BackgroundCompaction:NonTrivial:AfterRun");
     mutex_.Lock();
 
-    printf("after Run\n");
 
     status = compaction_job.Install(*c->mutable_cf_options());
     if (status.ok()) {

@@ -1780,7 +1780,7 @@ class MockPersistentCache : public PersistentCache {
   }
 
   Status Insert(const Slice& page_key, const char* data,
-                const size_t size) override {
+                const size_t size,bool) override {
     MutexLock _(&lock_);
 
     if (size_ > max_size_) {

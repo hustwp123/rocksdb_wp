@@ -137,6 +137,15 @@ class TableCache {
                    bool skip_filters = false, int level = -1,
                    bool prefetch_index_and_filter_in_cache = true);
 
+  Status SetTableToPcache(const EnvOptions& toptions,
+                   const InternalKeyComparator& internal_comparator,
+                   const FileDescriptor& file_fd, Cache::Handle**,
+                   const SliceTransform* prefix_extractor = nullptr,
+                   const bool no_io = false, bool record_read_stats = true,
+                   HistogramImpl* file_read_hist = nullptr,
+                   bool skip_filters = false, int level = -1,
+                   bool prefetch_index_and_filter_in_cache = true);
+
   // Get TableReader from a cache handle.
   TableReader* GetTableReaderFromHandle(Cache::Handle* handle);
 

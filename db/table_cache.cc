@@ -128,7 +128,40 @@ void TableCache::EraseHandle(const FileDescriptor& fd, Cache::Handle* handle) {
   Slice key = GetSliceForFileNumber(&number);
   cache_->Erase(key);
 }
+Status TableCache::SetTableToPcache(const EnvOptions& env_options,
+                             const InternalKeyComparator& internal_comparator,
+                             const FileDescriptor& fd, Cache::Handle** handle,
+                             const SliceTransform* prefix_extractor,
+                             const bool no_io, bool record_read_stats,
+                             HistogramImpl* file_read_hist, bool skip_filters,
+                             int level,
+                             bool prefetch_index_and_filter_in_cache) {
+  PERF_TIMER_GUARD_WITH_ENV(find_table_nanos, ioptions_.env);
+  Status s;
+  uint64_t number = fd.GetNumber();
+  Slice key = GetSliceForFileNumber(&number);
+  *handle = cache_->Lookup(key);
+  TEST_SYNC_POINT_CALLBACK("TableCache::FindTable:0",
+                           const_cast<bool*>(&no_io));
 
+  if (*handle == nullptr) {
+    if (no_io) {  // Don't do IO and return a not-found status
+      return Status::Incomplete("Table not found in table_cache, no_io is set");
+    }
+    std::unique_ptr<TableReader> table_reader;
+    s = GetTableReader(env_options, internal_comparator, fd,
+                       false /* sequential mode */, record_read_stats,
+                       file_read_hist, &table_reader, prefix_extractor,
+                       skip_filters, level, prefetch_index_and_filter_in_cache);
+    if (!s.ok()) {
+      assert(table_reader == nullptr);
+      RecordTick(ioptions_.statistics, NO_FILE_ERRORS);
+      // We do not cache error results so that if the error is transient,
+      // or somebody repairs the file, we recover automatically.
+    }
+  }
+  return s;
+}
 Status TableCache::FindTable(const EnvOptions& env_options,
                              const InternalKeyComparator& internal_comparator,
                              const FileDescriptor& fd, Cache::Handle** handle,

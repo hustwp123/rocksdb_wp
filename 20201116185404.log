@@ -1,0 +1,330 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+always_load=1
+max_load==18446744073709551615,kMaxSizet=18446744073709551615
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==13    data.size==88
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==88
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==88
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==88
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==14    data.size==88
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==88
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==88
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==15    data.size==91
+key.size==14    data.size==88
+key.size==15    data.size==91
+always_load=1
+max_load==18446744073709551615,kMaxSizet=18446744073709551615
+Keys:       16 bytes each
+Values:     256 bytes each (128 bytes after compression)
+Entries:    100000
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    25.9 MB (estimated)
+FileSize:   13.7 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 5
+WARNING: Assertions are enabled; benchmarks unnecessarily slow
+------------------------------------------------
+DB path: [/home/will/wpdb]
+key.size==15    data.size==90442
+key.size==15    data.size==61932
+key.size==14    data.size==90442
+key.size==14    data.size==61931
+key.size==15    data.size==90442
+key.size==15    data.size==61931
+key.size==15    data.size==90442
+key.size==14    data.size==90442
+key.size==14    data.size==61925
+key.size==15    data.size==90442
+key.size==15    data.size==61932
+key.size==14    data.size==90442
+readrandom   :      37.447 micros/op 209188 ops/sec;   54.2 MB/s (99945 of 100000 found)
+ PERF_CONTEXT:
+user_key_comparison_count = 2926212, block_cache_hit_count = 226444, block_read_count = 945, block_read_byte = 4261964, block_read_time = 421015670, block_cache_index_hit_count = 99941, index_block_read_count = 4, block_cache_filter_hit_count = 99996, filter_block_read_count = 4, compression_dict_block_read_count = 0, block_checksum_time = 473531, block_decompress_time = 14663530, get_read_bytes = 25585920, multiget_read_bytes = 0, iter_read_bytes = 0, internal_key_skipped_count = 0, internal_delete_skipped_count = 0, internal_recent_skipped_count = 0, internal_merge_count = 0, write_wal_time = 0, get_snapshot_time = 52604555, get_from_memtable_time = 0, get_from_memtable_count = 0, get_post_process_time = 13172156, get_from_output_files_time = 3367296424, seek_on_memtable_time = 0, seek_on_memtable_count = 0, next_on_memtable_count = 0, prev_on_memtable_count = 0, seek_child_seek_time = 0, seek_child_seek_count = 0, seek_min_heap_time = 0, seek_internal_seek_time = 0, find_next_user_entry_time = 0, write_pre_and_post_process_time = 0, write_memtable_time = 0, write_thread_wait_nanos = 0, write_scheduling_flushes_compactions_time = 0, db_mutex_lock_nanos = 109, db_condition_wait_nanos = 0, merge_operator_time_nanos = 0, write_delay_time = 0, read_index_block_nanos = 65011407, read_filter_block_nanos = 101105789, new_table_block_iter_nanos = 2682407227, new_table_iterator_nanos = 0, block_seek_nanos = 180616297, find_table_nanos = 0, bloom_memtable_hit_count = 0, bloom_memtable_miss_count = 0, bloom_sst_hit_count = 99945, bloom_sst_miss_count = 55, key_lock_wait_time = 0, key_lock_wait_count = 0, env_new_sequential_file_nanos = 0, env_new_random_access_file_nanos = 0, env_new_writable_file_nanos = 0, env_reuse_writable_file_nanos = 0, env_new_random_rw_file_nanos = 0, env_new_directory_nanos = 0, env_file_exists_nanos = 0, env_get_children_nanos = 0, env_get_children_file_attributes_nanos = 0, env_delete_file_nanos = 0, env_create_dir_nanos = 0, env_create_dir_if_missing_nanos = 0, env_delete_dir_nanos = 0, env_get_file_size_nanos = 0, env_get_file_modification_time_nanos = 0, env_rename_file_nanos = 0, env_link_file_nanos = 0, env_lock_file_nanos = 0, env_unlock_file_nanos = 0, env_new_logger_nanos = 0, get_cpu_nanos = 778298865, iter_next_cpu_nanos = 0, iter_prev_cpu_nanos = 0, iter_seek_cpu_nanos = 0, bloom_filter_useful = 55@level6, 0@level7, bloom_filter_full_positive = 99945@level6, 0@level7, bloom_filter_full_true_positive = 99945@level6, 0@level7, block_cache_hit_count = 226444@level6, 0@level7, block_cache_miss_count = 73446@level6, 0@level7
+Microseconds per read:
+Count: 800000 Average: 37.6100  StdDev: 513.97
+Min: 1  Median: 6.9314  Max: 55530
+Percentiles: P50: 6.93 P75: 8.93 P99: 221.80 P99.9: 8723.00 P99.99: 20400.00
+------------------------------------------------------
+[       0,       1 ]       12   0.002%   0.002% 
+(       1,       2 ]     1911   0.239%   0.240% 
+(       2,       3 ]    91519  11.440%  11.680% ##
+(       3,       4 ]    73331   9.166%  20.847% ##
+(       4,       6 ]   140164  17.521%  38.367% ####
+(       6,      10 ]   399659  49.957%  88.325% ##########
+(      10,      15 ]    54892   6.862%  95.186% #
+(      15,      22 ]    11634   1.454%  96.640% 
+(      22,      34 ]    11348   1.419%  98.059% 
+(      34,      51 ]     3713   0.464%  98.523% 
+(      51,      76 ]     1320   0.165%  98.688% 
+(      76,     110 ]      826   0.103%  98.791% 
+(     110,     170 ]     1063   0.133%  98.924% 
+(     170,     250 ]      939   0.117%  99.041% 
+(     250,     380 ]     1058   0.132%  99.174% 
+(     380,     580 ]     1419   0.177%  99.351% 
+(     580,     870 ]      894   0.112%  99.463% 
+(     870,    1300 ]      683   0.085%  99.548% 
+(    1300,    1900 ]      532   0.067%  99.615% 
+(    1900,    2900 ]      622   0.078%  99.692% 
+(    2900,    4400 ]      686   0.086%  99.778% 
+(    4400,    6600 ]      589   0.074%  99.852% 
+(    6600,    9900 ]      600   0.075%  99.927% 
+(    9900,   14000 ]      330   0.041%  99.968% 
+(   14000,   22000 ]      220   0.028%  99.996% 
+(   22000,   33000 ]       32   0.004%  99.999% 
+(   33000,   50000 ]        2   0.000% 100.000% 
+(   50000,   75000 ]        2   0.000% 100.000% 
+
+
+Level Files Size(MB)
+--------------------
+  0        0        0
+  1        0        0
+  2        0        0
+  3        0        0
+  4        0        0
+  5       63      506
+  6      185     1286
+

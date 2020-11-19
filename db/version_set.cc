@@ -4462,7 +4462,6 @@ Status VersionSet::Recover(
         "You have to open all column families. Column families not opened: " +
         list_of_not_found);
   }
-
   if (s.ok()) {
     for (auto cfd : *column_family_set_) {
       assert(builders.count(cfd->GetID()) > 0);
