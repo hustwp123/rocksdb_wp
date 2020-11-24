@@ -253,6 +253,7 @@ Status BlockCacheTier::InsertImpl(const Slice& key, const Slice& data,bool is_me
   WriteLock _(&lock_);
 
   if (!is_meta_block) {
+    //printf("data key.size==%ld    data.size==%ld\n",key.size(),data.size());
     LBA lba;
     if (metadata_.Lookup(key, &lba)) {
       // the key already exists, this is duplicate insert
@@ -358,7 +359,6 @@ Status BlockCacheTier::Lookup(const Slice& key, std::unique_ptr<char[]>* val,
       // different, and the cache file might be removed between the two lookups
       stats_.cache_misses_++;
       stats_.read_miss_latency_.Add(timer.ElapsedNanos() / 1000);
-      printf("lookup failed2\n");
       return Status::NotFound("blockcache: cache file not found");
     }
 
@@ -374,7 +374,6 @@ Status BlockCacheTier::Lookup(const Slice& key, std::unique_ptr<char[]>* val,
       stats_.cache_misses_++;
       stats_.cache_errors_++;
       stats_.read_miss_latency_.Add(timer.ElapsedNanos() / 1000);
-      printf("lookup failed3\n");
       return Status::NotFound("blockcache: error reading data");
     }
 
@@ -396,7 +395,6 @@ Status BlockCacheTier::Lookup(const Slice& key, std::unique_ptr<char[]>* val,
       // different, and the cache file might be removed between the two lookups
       stats_.cache_misses_++;
       stats_.read_miss_latency_.Add(timer.ElapsedNanos() / 1000);
-      printf("lookup failed4\n");
       return Status::NotFound("blockcache: cache file not found");
     }
 
@@ -412,7 +410,6 @@ Status BlockCacheTier::Lookup(const Slice& key, std::unique_ptr<char[]>* val,
       stats_.cache_misses_++;
       stats_.cache_errors_++;
       stats_.read_miss_latency_.Add(timer.ElapsedNanos() / 1000);
-      printf("lookup failed5\n");
       return Status::NotFound("blockcache: error reading data");
     }
 
